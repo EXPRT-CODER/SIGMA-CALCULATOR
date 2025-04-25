@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2 id="bar">ㅤ☂ㅤSIGMA CALCULATOR</h2>
+  <div class="main-div">
+    <span id="display">0</span>
+  
+    <div class="key">
+      <button class="green-button" onclick="AC()">AC</button>
+      <button class="green-button" onclick="operation('%')">%</button>
+      <button class="green-button" onclick="back()">🡄</button>
+      <button class="green-button" onclick="operation('/')">/</button>
+    </div>
+    
+    <div class="key">
+      <button onclick="operation('7')">7</button>
+      <button onclick="operation('8')">8</button>
+      <button onclick="operation('9')">9</button>
+      <button class="green-button" onclick="operation('x')">x</button>
+    </div>
+    
+    <div class="key">
+      <button onclick="operation('4')">4</button>
+      <button onclick="operation('5')">5</button>
+      <button onclick="operation('6')">6</button>
+      <button class="green-button" onclick="operation('-')">‒</button>
+    </div>
+    
+    <div class="key">
+      <button onclick="operation('1')">1</button>
+      <button onclick="operation('2')">2</button>
+      <button onclick="operation('3')">3</button>
+      <button class="green-button" onclick="operation('+')">+</button>
+    </div>
+    
+    <div class="key">
+      <button onclick="operation('00')">00</button>
+      <button onclick="operation('0')">0</button>
+      <button onclick="operation('.')">.</button>
+      <button class="equals-button" onclick="isEqualTo()">=</button>
+    </div>
+  </div>  
+  <script src="script.js"></script>
+</body>
+</html>
