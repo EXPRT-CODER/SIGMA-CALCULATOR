@@ -64,7 +64,7 @@ button:active {
   transform: scale(0.95);
   box-shadow: inset 2px 2px 5px #00000055;
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   body{
     overflow: hidden;
   }
